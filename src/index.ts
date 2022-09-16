@@ -11,7 +11,7 @@ import promptSync from 'prompt-sync'
 
 try {
   const prompt = promptSync()
-  const massString = prompt('Ente mass(kg): ')
+  const massString = prompt('Enter mass(kg): ')
   const massNumber = parseInt(massString)
   if (isNaN(+massNumber)) {
     throw new Error()
