@@ -15,6 +15,6 @@ const mass = prompt("Ente mass(kg): ");
 const mass = Number(lengthString);
 const light = 2.998x10⁸;
 const energy = mass * light**2;
-console.log(`${numberOfLogs} logs can fit on the truck`);
+console.log(`${energy} joules of energy`);
 
 console.log("\nDone.");
