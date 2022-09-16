@@ -1,6 +1,6 @@
 /**
- * The program shows how many logs
- *   can fit on a truck.
+ * The program shows what the energy is released
+ *   when user enters mass.
  *
  * By:      Huzaifa Khalid
  * Version: 1.0
