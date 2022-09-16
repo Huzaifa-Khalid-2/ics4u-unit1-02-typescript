@@ -11,11 +11,10 @@ import promptSync from "prompt-sync";
 
 const prompt = promptSync();
 
-const length = prompt("Enter log length (0.25,0.5,1): ");
-const length = Number(lengthString);
-const truckMass = 1100;
-const logWeight = 20;
-const numberOfLogs = truckMass / (length * logWeight);
+const mass = prompt("Ente mass(kg): ");
+const mass = Number(lengthString);
+const light = 2.998x10⁸;
+const energy = mass * light**2;
 console.log(`${numberOfLogs} logs can fit on the truck`);
 
 console.log("\nDone.");
